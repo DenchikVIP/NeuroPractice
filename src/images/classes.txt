@@ -1,0 +1,8 @@
+dog
+person
+cat
+tv
+car
+cavity
+forestfire
+fire
