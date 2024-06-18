@@ -5,9 +5,8 @@ import matplotlib.pyplot as plt
 from tensorflow import keras
 from tensorflow.keras.layers import Dense, Flatten, Input, Conv2D, GlobalAveragePooling2D, Dropout
 
+
 dataset = tf.data.TFRecordDataset('classifier_dataset.tfrecord')
-
-
 
 def parse_record(record):
     # нужно описать приходящий экземпляр
@@ -30,18 +29,17 @@ dataset = dataset.map(parse_record)
 
 dataset = dataset.shuffle(50).cache().prefetch(buffer_size=tf.data.AUTOTUNE).batch(64).shuffle(50)
 
-# проверка классификации
-for i, n in dataset.take(1):
-    plt.figure(figsize=(10, 6))
-    i = i.numpy()
-    n = n.numpy()
-    for nn in range(32):
-        ax = plt.subplot(5, 10, 1 + nn)
-
-        plt.title(n[nn])
-        plt.imshow(i[nn])
-        plt.axis('off')
-    plt.show()
+def test_classifier():
+    for i, n in dataset.take(1):
+        plt.figure(figsize=(10, 6))
+        i = i.numpy()
+        n = n.numpy()
+        for nn in range(32):
+            ax = plt.subplot(5, 10, 1 + nn)
+            plt.title(n[nn])
+            plt.imshow(i[nn])
+            plt.axis('off')
+        plt.show()
 
 
 base_model = tf.keras.applications.MobileNetV2(weights='imagenet', include_top=False, input_shape=(128, 128, 3))
@@ -106,7 +104,8 @@ def trainclass():
         hist = np.append(hist, loss / lc)
         plt.plot(np.arange(0, len(hist)), hist)
         plt.show()
-
+        if epoch != epochs:
+            plt.close()
 
 
 def imshow_and_pred():
@@ -130,7 +129,6 @@ def imshow_and_pred():
             ax.get_yaxis().set_visible(False)
     plt.show()
 
-#imshow_and_pred()
 
 def saveclassifier():
     model.nn.save('my_classifier.keras')

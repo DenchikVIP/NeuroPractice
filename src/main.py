@@ -1,3 +1,6 @@
+import os
+
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import tensorflow as tf
 import cv2
 import numpy as np
@@ -5,18 +8,22 @@ import sys
 import matplotlib.pyplot as plt
 from tkinter import *
 from tkinter import filedialog
-from tkinter.ttk import Combobox
+# from tkinter.ttk import Combobox
+from tkinter.messagebox import showwarning, showinfo
 import tkinter as tk
 from PIL import Image, ImageTk
 import io
 from dataprocessing import dataprocess
+from creatingtfrecordclassifier import check_xml_list
+from creatingtfrecordlocalizer import create_load_tfrec_for_localizer
+from classifier import test_classifier, imshow_and_pred, trainclass, saveclassifier
+from training import train, savemodel, loadmodel, testing
+import subprocess
+import pkg_resources
 
 gpus = tf.config.experimental.list_physical_devices('GPU')
-print(gpus)
 for gpu in gpus:
     tf.config.experimental.set_memory_growth(gpu, True)
-from os import listdir
-from os.path import isfile, join
 
 global path_for_one
 localizator = tf.keras.models.load_model('my_bb_model.keras')
@@ -41,6 +48,7 @@ frame.place(relheight=0.1, relwidth=1)
 frame1 = Frame(window, bg='darkgray')
 frame1.place(relheight=0.1, relwidth=1, rely=0.9)
 
+
 class ConsoleRedirector(object):
     def __init__(self, text_widget):
         self.text_widget = text_widget
@@ -51,6 +59,7 @@ class ConsoleRedirector(object):
 
     def flush(self):
         pass
+
 
 # функция работы с нейросетями: подготовка изображения, детекция
 # на выходе три массива: координаты (10,4) , классы (10) , вероятности (10)
@@ -121,8 +130,10 @@ def detect_objects(image):
 
     return cords, classes, res_probs
 
+
 # th - вероятность, ниже которой рамки не отображаются
-namespace = {0: 'NOTHING', 1: 'fire'}
+namespace = {0: 'NOTHING', 1: 'Fire'}
+
 
 def visualize(in_image, cords, classes, probs, th=0.5):
     big_image = tf.image.resize(in_image, (1024, 1024)).numpy() / 256
@@ -147,6 +158,7 @@ def visualize(in_image, cords, classes, probs, th=0.5):
                                       (int(cords[i][2]) * 8, int(cords[i][3]) * 8), color, 5)
 
     return big_image
+
 
 # функция обьединяет две рамки одного класса в одну, если они пересекаются
 # tau - порог IoU этих рамок чтобы их обьединить (0.1 - все подряд, 0.9 - только очень близкие)
@@ -194,6 +206,7 @@ def prettify(cords, classes, probs, tau=0.2):
 
     return newcords, newclasses, newprobs
 
+
 def detect_fire_in_image(path_for_one):
     image = cv2.imread(path_for_one)
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
@@ -220,6 +233,7 @@ def detect_fire_in_image(path_for_one):
     # Закрываем буфер
     buf.close()
 
+
 def loadimage():
     global image
     global path_for_one
@@ -228,15 +242,43 @@ def loadimage():
         pil_image = Image.open(path_for_one)
         pil_image = pil_image.resize((500, 500))
         image = ImageTk.PhotoImage(pil_image)
-        image_field_raw.create_image(0, 0, anchor=NW, image=image, tags='Старое')
+        image_field_raw.create_image(0, 0, anchor=NW, image=image)
+
+
 def detect():
     global path_for_one
     detect_fire_in_image(path_for_one)
 
 
+def check_and_install_packages():
+    required = {'PyQt5', 'sip'}
+    installed = {pkg.key for pkg in pkg_resources.working_set}
+    missing = required - installed
+    if missing:
+        python = sys.executable
+        subprocess.check_call([python, '-m', 'pip', 'install', *missing], stdout=subprocess.DEVNULL)
+
+
+def run_labelimg():
+    showinfo("Обязательная информация",
+             "Для использования этого приложения необходимо иметь установленные пакеты PyQt5 и sip")
+    check_and_install_packages()
+    labelimg_path = 'C:/ForestFireDiplomFinVer/labelimg/labelImg.py'
+    subprocess.run(['python', labelimg_path])
+
+
+def create_tfrec_classifier():
+    showwarning("Предупреждение", "Классификатор настроен и не нуждается в добавлении новых данных")
+
+
+def start_train_localizer():
+    loadmodel()
+    train()
+
+
 def train_window_open():
     window1 = Tk()
-    window1.geometry("720x510")
+    window1.geometry("720x910")
     window1.resizable(False, False)
     window1.title("Окно тренировки модели нейросети")
     window1.iconbitmap(default="bplaicon.ico")
@@ -248,20 +290,61 @@ def train_window_open():
     processdataforonefile = Button(window1, font=40, text=f"Информация о картинке", command=dataprocess)
     processdataforonefile.pack(anchor=NW)
 
+    runlabelimg = Button(window1, font=40, text=f"Запустить LabelImg", command=run_labelimg)
+    runlabelimg.pack(anchor=NW)
+
+    check_xml_list_but = Button(window1, font=40, text=f"Файлы для обучения", command=check_xml_list)
+    check_xml_list_but.pack(anchor=NW)
+
+    check_xml_list_but = Button(window1, font=40, text=f"Создать новую запись локализатора",
+                                command=create_load_tfrec_for_localizer)
+    check_xml_list_but.pack(anchor=NW)
+
+    tfrec_classifier = Button(window1, font=40, text=f"Создать новую запись классификатора",
+                              command=create_tfrec_classifier)
+    tfrec_classifier.pack(anchor=NW)
+
+    classifier_test_but = Button(window1, font=40, text=f"Протестировать классификатор", command=test_classifier)
+    classifier_test_but.pack(anchor=NW)
+
+    true_classifier_test_but = Button(window1, font=40, text=f"Точный тест классификатора", command=imshow_and_pred)
+    true_classifier_test_but.pack(anchor=NW)
+
+    train_classifier = Button(window1, font=40, text=f"Тренировать модель классификатора", command=trainclass)
+    train_classifier.pack(anchor=NW)
+
+    save_classifier = Button(window1, font=40, text=f"Сохранить модель классификатора", command=saveclassifier)
+    save_classifier.pack(anchor=NW)
+
+    save_localizer = Button(window1, font=40, text=f"Сохранить модель локализатора", command=savemodel)
+    save_localizer.pack(anchor=NW)
+
+    load_localizer = Button(window1, font=40, text=f"Загрузить модель локализатора", command=loadmodel)
+    load_localizer.pack(anchor=NW)
+
+    test_localizer = Button(window1, font=40, text=f"Тест локализатора", command=testing)
+    test_localizer.pack(anchor=NW)
+
+    train_localizer = Button(window1, font=40, text=f"Тренировать модель локализатора", bg='Green', fg='black',
+                             command=start_train_localizer)
+    train_localizer.pack(anchor=NW)
+
     text = tk.Text(window1)
     text.pack(anchor='center')
     sys.stdout = ConsoleRedirector(text)
 
 
-
 def load_model_data():
-    da = 0
+    global localizator
+    model_path = filedialog.askopenfilename(filetypes=[("Модель keras", "*.keras")])
+    if model_path:
+        localizator = tf.keras.models.load_model(model_path)
 
 
 load_image_but = Button(frame, font=40, text=f"Загрузить изображение", command=loadimage)
 load_image_but.grid(column=0, row=0, padx=10, pady=20)
 
-load_model_but = Button(frame, font=40, text=f"Загрузить модель для обучения", command=load_model_data)
+load_model_but = Button(frame, font=40, text=f"Загрузить свою модель нейросети", command=load_model_data)
 load_model_but.grid(column=1, row=0, padx=10)
 
 detect_but = Button(frame, font=40, text=f"Распознать", bg='Green', fg='black', command=detect)

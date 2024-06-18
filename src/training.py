@@ -2,13 +2,10 @@ import tensorflow as tf
 from IPython.display import clear_output
 
 gpus = tf.config.experimental.list_physical_devices('GPU')
-print(gpus)
 for gpu in gpus:
     tf.config.experimental.set_memory_growth(gpu, True)
 from tensorflow import keras
 from tensorflow.keras.layers import Dense, Flatten, Input, Conv2D, Conv2DTranspose, Concatenate, LeakyReLU, Dropout
-from os import listdir
-from os.path import isfile, join
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -198,5 +195,5 @@ def train():
         testing()
 
 
-loadmodel()
-train()
+#loadmodel()
+#train()
