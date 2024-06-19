@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.5.13)  19 JUN 2024 21:53
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.5.13)  20 JUN 2024 01:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -785,11 +785,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--104
 \c=\count346
 \last=\count347
 \pnul=\count348
-) [6] (main.toc [7])
+) [6] (main.toc [7] [8])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- (main.lpc [8])
+ (main.lpc)
 \tf@lpc=\write6
 \openout6 = `main.lpc'.
 
@@ -1031,136 +1031,1118 @@ ain использует ос-
 File: images/maketinterface.png Graphic file (type bmp)
 <images/maketinterface.png>
 ) (РабочийПроект.tex [43]
-
-LaTeX Warning: Reference `classmain:tabler' on page 44 undefined on input line 
-9.
-
-
-LaTeX Warning: Reference `class:table' on page 44 undefined on input line 29.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Главный
+Overfull \hbox (2.88367pt too wide) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/14.4 tf.keras.Model| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]|\TU/TimesNewRoman(0)/m/n/14.4 CMain – главный
+Underfull \hbox (badness 3792) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 невой папке проекта
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 29--29
-\TU/TimesNewRoman(0)/m/n/14.4 класс страницы web-
+Underfull \hbox (badness 1796) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 и создается в классе
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-\TU/TimesNewRoman(0)/m/n/14.4 приложения. После
+Overfull \hbox (2.88367pt too wide) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/14.4 tf.keras.Model| 
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 29--29
-\TU/TimesNewRoman(0)/m/n/14.4 одного из этапов по
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Модель классифика-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-\TU/TimesNewRoman(0)/m/n/14.4 загрузке страницы
+Underfull \hbox (badness 2351) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 тора, загруженная из
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-\TU/TimesNewRoman(0)/m/n/14.4 в сценарии стано-
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 в корневой папке
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-\TU/TimesNewRoman(0)/m/n/14.4 вится доступным
+Underfull \hbox (badness 2698) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Главное окно прило-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-\TU/TimesNewRoman(0)/m/n/14.4 инициализированный
+Underfull \hbox (badness 2512) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 жения. Окно настро-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]|\TU/TimesNewRoman(0)/m/n/14.4 void ShowTitle(string
+Underfull \hbox (badness 2932) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Холст для отображе-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-\TU/TimesNewRoman(0)/m/n/14.4 bool strip_tags =
+Underfull \hbox (badness 2932) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Холст для отображе-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-\TU/TimesNewRoman(0)/m/n/14.4 true) Выводит за-
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Класс для перена-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-\TU/TimesNewRoman(0)/m/n/14.4 головок страницы
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 правления вывода
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-\TU/TimesNewRoman(0)/m/n/14.4 void SetTitle(string
+Underfull \hbox (badness 7291) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 консоли в текстовое
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-\TU/TimesNewRoman(0)/m/n/14.4 title) Устанавливает
+Underfull \hbox (badness 3229) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 функции sys.stdout =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]\TU/TimesNewRoman(0)/m/n/14.4 void ShowCSS(bool
+Overfull \hbox (4.75937pt too wide) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 ConsoleRedirector(text).| 
  []
 
 
-Underfull \hbox (badness 5970) in paragraph at lines 29--29
-\TU/TimesNewRoman(0)/m/n/14.4 external = true, bool
+Underfull \hbox (badness 2932) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Холст для отображе-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-\TU/TimesNewRoman(0)/m/n/14.4 XhtmlStyle = true)
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Функция для обна-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-\TU/TimesNewRoman(0)/m/n/14.4 Выводит таблицу
+Underfull \hbox (badness 1881) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 ружения объектов на
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Главный
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 изображении с ис-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]|\TU/TimesNewRoman(0)/m/n/14.4 CFile – Класс для
+Underfull \hbox (badness 1776) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 пользованием модели
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 29--29
-\TU/TimesNewRoman(0)/m/n/14.4 работы с файлами и
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 локализатора. Здесь
  []
 
 
-Underfull \hbox (badness 7888) in paragraph at lines 29--29
-\TU/TimesNewRoman(0)/m/n/14.4 щает массив, содер-
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 происходит подго-
  []
 
-[44]
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 товка изображения,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 локализация, норма-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 лизация, разделение
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 на элементы, нареза-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 ние изображений и
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 32, 3). Далее проис-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 счет метки класса
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 и сбор координат в
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 В нашем варианте 0
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Функция для визуа-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 лизации результатов
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 детекции с помо-
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 щью OpenCV. Рисует
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 текст и квадраты
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 на изображении в
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 знанными объектами
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 ции путём объедине-
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 ния перекрывающих-
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 ляем IoU, самый на-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Функция для об-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 наружения огня на
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 изображении и его
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 визуализации. Счи-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 тывает изображение,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 переводит его в
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 matplotlib и выво-
+ []
+
+
+Underfull \hbox (badness 5939) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 дит на Canvas поле
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 изображения через
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 диалоговое окно.
+ []
+
+
+Underfull \hbox (badness 5119) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 Также помещает его
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 в Canvas поле загру-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Функция для за-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 пуска процесса
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 обнаружения огня на
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 загруженном изоб-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 ражении. Вызывает
+ []
+
+
+Overfull \hbox (6.22867pt too wide) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/14.4 check_and_install_packages| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Функция для про-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 верки и установки
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 необходимых па-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 кетов PyQt5 и sip.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 Вызывается для
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 предварительного
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Функция для запуска
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 для аннотации изоб-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 ражений. Labelimg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 установлен заранее,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 ка дополнительные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 фикатора. Вызывает
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 функцию из другого
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Функция для начала
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 обучения модели ло-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 функцию train() и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Открывает новое
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 окно для обучения
+ []
+
+
+Underfull \hbox (badness 6188) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 для удобного обуче-
+ []
+
+
+Underfull \hbox (badness 6641) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 ния, тестирования и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 работы с файлами
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 43--43
+\TU/TimesNewRoman(0)/m/n/14.4 пользовательской мо-
+ []
+
+[44] [45] [46] [47] [48]
+Overfull \hbox (17.36511pt too wide) in paragraph at lines 74--74
+ []|\TU/TimesNewRoman(0)/m/n/14.4 Наименование| 
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 74--74
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Объект дерева XML,
+ []
+
+
+Underfull \hbox (badness 2828) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 содержащий структу-
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 ла для информирова-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Корневой элемент
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 XML файла, предо-
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 дочерним элементам.
+ []
+
+
+Overfull \hbox (1.24246pt too wide) in paragraph at lines 74--74
+[]|\TU/TimesNewRoman(0)/m/n/14.4 num_objects| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Количество объек-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 тов, размеченных в
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 XML файле. Коли-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 чество размеченных
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 объектов (6 - кол-во
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 служебных элемен-
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 нормализованных ко-
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 извлеченная из XML
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 74--74
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Высота изображения,
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 извлеченная из XML
+ []
+
+
+Overfull \hbox (1.2284pt too wide) in paragraph at lines 74--74
+[]|\TU/TimesNewRoman(0)/m/n/14.4 object_cords| 
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 нормализованных ко-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Тензор изображения
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 после загрузки и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Функция для созда-
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 ния новой фигуры в
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 74--74
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Функция для отобра-
+ []
+
+
+Underfull \hbox (badness 6188) in paragraph at lines 74--74
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Функция для управ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 ления отображением
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 74--74
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Функция для отобра-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 жения всей фигуры
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 с подграфиками.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 Открывает окно с
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\TU/TimesNewRoman(0)/m/n/14.4 исходным изображе-
+ []
+
+[49] [50]
+Underfull \hbox (badness 5260) in paragraph at lines 98--98
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Путь к папке с
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 изображения-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 ми. Значением
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 является адрес
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 папки с нашими
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Функция для
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 создания списка
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 XML файлов в
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 указанной пап-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 ке. Формируем
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 список всех xml
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 98--98
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Функция для за-
+ []
+
+
+Underfull \hbox (badness 5504) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 грузки и предо-
+ []
+
+
+Underfull \hbox (badness 4429) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 здания TFRecord
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 для классифика-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 тора. Здесь мы
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Словарь для
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 сопоставления
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 названий с мет-
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 ками классов. В
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 Ничего (nothing),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 1- Возгорание
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Внутренняя
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 функция для
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 ботанного изоб-
+ []
+
+
+Underfull \hbox (badness 3657) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 в TFRecord. Со-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 здается запись
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 writer, данные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 предоставляются
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 в байтовом виде
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 и собирается эк-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 земляр, который
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 потом записы-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 вается в запись
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Функция для
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 разбора записей
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 TFRecord. Имена
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 элементов оста-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/TimesNewRoman(0)/m/n/14.4 ются как при
+ []
+
+[51]
+Underfull \hbox (badness 5260) in paragraph at lines 135--135
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Путь к папке с
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 изображения-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 ми. Значением
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 является адрес
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 папки с нашими
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Загружает изоб-
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 ражение, декоди-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 рует, нормали-
+ []
+
+
+Underfull \hbox (badness 5681) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 зует и изменяет
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 135--135
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Формируем спи-
+ []
+
+
+Overfull \hbox (10.02763pt too wide) in paragraph at lines 135--135
+[]|\TU/TimesNewRoman(0)/m/n/14.4 TFRecordWriter| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Записывает дан-
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 ные в TFRecord.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 Создание самой
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Количество объ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 ектов в XML
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Список коорди-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Ширина изобра-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Высота изобра-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Координаты од-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 ного объекта.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 Тут мы также
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 нормализуем
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 координаты от
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 на исходные
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Сериализованное
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 изображение.
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 Готовим данные,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 представляем в
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 координаты. Го-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 товим данные,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 представляем в
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Пример данных
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 для TFRecord.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 Собираем экзе-
+ []
+
+
+Overfull \hbox (16.2081pt too wide) in paragraph at lines 135--135
+[]|\TU/TimesNewRoman(0)/m/n/14.4 TFRecordDataset| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 TFRecord. Сразу
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 после создания
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 проверка чтения
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 135--135
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Разбирает запись
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\TU/TimesNewRoman(0)/m/n/14.4 из TFRecord.
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 135--135
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Описание прихо-
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 135--135
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Разобранный эк-
+ []
+
+[52] [53] [54]
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Разбирает запись
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+\TU/TimesNewRoman(0)/m/n/14.4 TFRecord, возвращая
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|\TU/TimesNewRoman(0)/m/n/14.4 shuffle, cache, prefetch,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Подготавливает да-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+\TU/TimesNewRoman(0)/m/n/14.4 тасет к обучению:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+\TU/TimesNewRoman(0)/m/n/14.4 перемешивание,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+\TU/TimesNewRoman(0)/m/n/14.4 кэширование, пред-
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 160--160
+\TU/TimesNewRoman(0)/m/n/14.4 варительная загрузка,
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 160--160
+\TU/TimesNewRoman(0)/m/n/14.4 ры из датасета и их
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Определяет модель
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 160--160
+\TU/TimesNewRoman(0)/m/n/14.4 ния, возвращая сред-
+ []
+
+
+Underfull \hbox (badness 7631) in paragraph at lines 160--160
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Обучает классифика-
+ []
+
+
+Underfull \hbox (badness 6094) in paragraph at lines 160--160
+\TU/TimesNewRoman(0)/m/n/14.4 тор и визуализирует
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Визуализирует изоб-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+\TU/TimesNewRoman(0)/m/n/14.4 ражения и пред-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+\TU/TimesNewRoman(0)/m/n/14.4 сказания модели с
+ []
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Разбирает запись
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+\TU/TimesNewRoman(0)/m/n/14.4 TFRecord, возвра-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+\TU/TimesNewRoman(0)/m/n/14.4 щая изображение и
+ []
+
+
+Underfull \hbox (badness 4819) in paragraph at lines 186--186
+\TU/TimesNewRoman(0)/m/n/14.4 между истинными и
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 186--186
+\TU/TimesNewRoman(0)/m/n/14.4 предсказанными рам-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Определяет модель
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Тестирует модель,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+\TU/TimesNewRoman(0)/m/n/14.4 визуализируя резуль-
+ []
+
+
+Underfull \hbox (badness 7012) in paragraph at lines 186--186
+\TU/TimesNewRoman(0)/m/n/14.4 зуализирует историю
+ []
+
+[56]
 (C:\Users\Den\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/03/11 1.10a listings language file
 )
 LaTeX Font Info:    Font shape `TU/Verdana(0)/m/n' will be
-(Font)              scaled to size 10.07994pt on input line 37.
+(Font)              scaled to size 10.07994pt on input line 195.
 
-[45]
+[57]
 File: images/main1.eps Graphic file (type eps)
 <images/main1.eps>
 File: images/main2.eps Graphic file (type eps)
@@ -1171,26 +2153,26 @@ File: images/menu.eps Graphic file (type eps)
 <images/menu.eps>
 File: images/enter.eps Graphic file (type eps)
 <images/enter.eps>
- [46]) (Заключение.tex [47]) (СписокИсточников.tex [48]
+ [58]) (Заключение.tex [59]) (СписокИсточников.tex [60]
 Underfull \hbox (badness 6001) in paragraph at lines 14--15
 []\TU/TimesNewRoman(0)/m/n/14.4 Герон, О. Практическое машинное обучение с Scik
 it-Learn и
  []
 
-[49]) (Плакаты.tex [50] [51]
+[61]) (Плакаты.tex [62] [63]
 File: images/плакат1.png Graphic file (type bmp)
 <images/плакат1.png>
 File: images/плакат2.png Graphic file (type bmp)
 <images/плакат2.png>
- [52
+ [64
 
 ]
 File: images/плакат3.png Graphic file (type bmp)
 <images/плакат3.png>
- [53]
+ [65]
 File: images/плакат3.png Graphic file (type bmp)
 <images/плакат3.png>
- [54] [55]) (Код.tex
+ [66] [67]) (Код.tex
 (C:\Users\Den\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/03/11 1.10a listings language file
 )
@@ -1224,10 +2206,10 @@ File: lstmisc.sty 2024/03/11 1.10a (Carsten Heinz)
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 4.
 
-(main.tex [56
+(main.tex [68
 
-]) (ТехПроект.tex [57] [58] [59] [60] [61] [62] [63]) [64])
-[65] (main.aux)
+]) (ТехПроект.tex [69] [70] [71] [72] [73] [74] [75]) [76])
+[77] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
@@ -1241,15 +2223,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B234EBEC4984C19214BA58EA16E7B129;20226.
+(rerunfilecheck)             Checksum: ACA6EA1B264627F935A0FF45FDB516EC;21261.
  ) 
 Here is how much of TeX's memory you used:
- 20536 strings out of 409553
- 369307 string characters out of 5772365
+ 20544 strings out of 409553
+ 369424 string characters out of 5772365
  2261148 words of memory out of 5000000
- 42400 multiletter control sequences out of 15000+600000
+ 42408 multiletter control sequences out of 15000+600000
  564188 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,11n,110p,955b,2966s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (65 pages).
+Output written on main.pdf (77 pages).
