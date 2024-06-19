@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.5.13)  19 JUN 2024 21:24
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.5.13)  19 JUN 2024 21:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1027,10 +1027,6 @@ Underfull \hbox (badness 1596) in paragraph at lines 203--204
 ain использует ос-
  []
 
-
-LaTeX Warning: Reference `maketinterface:image' on page 42 undefined on input l
-ine 213.
-
 [42]
 File: images/maketinterface.png Graphic file (type bmp)
 <images/maketinterface.png>
@@ -1235,17 +1231,8 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: C0DA5E093C8F58A09A751FB3BFAEE71F;19380
-(rerunfilecheck)             After:  93BA899EA9699BF0D495335C7D716854;20090.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 93BA899EA9699BF0D495335C7D716854;20090.
  ) 
 Here is how much of TeX's memory you used:
  20533 strings out of 409553
