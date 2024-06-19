@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.5.13)  19 JUN 2024 21:33
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.5.13)  19 JUN 2024 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -789,7 +789,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--104
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- (main.lpc)
+ (main.lpc [8])
 \tf@lpc=\write6
 \openout6 = `main.lpc'.
 
@@ -804,7 +804,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
 
-[8] [9]) (Введение.tex [10] [11]
+[9]) (Введение.tex [10] [11]
 \c=\count349
 \last=\count350
 \pnul=\count351
@@ -1031,127 +1031,136 @@ ain использует ос-
 File: images/maketinterface.png Graphic file (type bmp)
 <images/maketinterface.png>
 ) (РабочийПроект.tex [43]
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+
+LaTeX Warning: Reference `classmain:tabler' on page 44 undefined on input line 
+9.
+
+
+LaTeX Warning: Reference `class:table' on page 44 undefined on input line 29.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 []|\TU/TimesNewRoman(0)/m/n/14.4 Главный
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 []|\TU/TimesNewRoman(0)/m/n/14.4 CMain – главный
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 24--24
+Underfull \hbox (badness 1783) in paragraph at lines 29--29
 \TU/TimesNewRoman(0)/m/n/14.4 класс страницы web-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \TU/TimesNewRoman(0)/m/n/14.4 приложения. После
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 24--24
+Underfull \hbox (badness 2884) in paragraph at lines 29--29
 \TU/TimesNewRoman(0)/m/n/14.4 одного из этапов по
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \TU/TimesNewRoman(0)/m/n/14.4 загрузке страницы
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \TU/TimesNewRoman(0)/m/n/14.4 в сценарии стано-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \TU/TimesNewRoman(0)/m/n/14.4 вится доступным
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \TU/TimesNewRoman(0)/m/n/14.4 инициализированный
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 []|\TU/TimesNewRoman(0)/m/n/14.4 void ShowTitle(string
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \TU/TimesNewRoman(0)/m/n/14.4 bool strip_tags =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \TU/TimesNewRoman(0)/m/n/14.4 true) Выводит за-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \TU/TimesNewRoman(0)/m/n/14.4 головок страницы
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \TU/TimesNewRoman(0)/m/n/14.4 void SetTitle(string
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \TU/TimesNewRoman(0)/m/n/14.4 title) Устанавливает
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 []\TU/TimesNewRoman(0)/m/n/14.4 void ShowCSS(bool
  []
 
 
-Underfull \hbox (badness 5970) in paragraph at lines 24--24
+Underfull \hbox (badness 5970) in paragraph at lines 29--29
 \TU/TimesNewRoman(0)/m/n/14.4 external = true, bool
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \TU/TimesNewRoman(0)/m/n/14.4 XhtmlStyle = true)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \TU/TimesNewRoman(0)/m/n/14.4 Выводит таблицу
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 []|\TU/TimesNewRoman(0)/m/n/14.4 Главный
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 []|\TU/TimesNewRoman(0)/m/n/14.4 CFile – Класс для
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 24--24
+Underfull \hbox (badness 2302) in paragraph at lines 29--29
 \TU/TimesNewRoman(0)/m/n/14.4 работы с файлами и
  []
 
 
-Underfull \hbox (badness 7888) in paragraph at lines 24--24
+Underfull \hbox (badness 7888) in paragraph at lines 29--29
 \TU/TimesNewRoman(0)/m/n/14.4 щает массив, содер-
  []
 
+[44]
 (C:\Users\Den\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/03/11 1.10a listings language file
 )
 LaTeX Font Info:    Font shape `TU/Verdana(0)/m/n' will be
-(Font)              scaled to size 10.07994pt on input line 32.
+(Font)              scaled to size 10.07994pt on input line 37.
 
-[44] [45]
+[45]
 File: images/main1.eps Graphic file (type eps)
 <images/main1.eps>
 File: images/main2.eps Graphic file (type eps)
@@ -1232,13 +1241,13 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 93BA899EA9699BF0D495335C7D716854;20090.
+(rerunfilecheck)             Checksum: B234EBEC4984C19214BA58EA16E7B129;20226.
  ) 
 Here is how much of TeX's memory you used:
- 20533 strings out of 409553
- 369256 string characters out of 5772365
+ 20536 strings out of 409553
+ 369307 string characters out of 5772365
  2261148 words of memory out of 5000000
- 42397 multiletter control sequences out of 15000+600000
+ 42400 multiletter control sequences out of 15000+600000
  564188 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,11n,110p,955b,2966s stack positions out of 10000i,1000n,20000p,200000b,200000s

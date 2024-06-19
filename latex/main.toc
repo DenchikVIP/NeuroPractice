@@ -48,7 +48,8 @@
 \contentsline {subsection}{\numberline {3.4} Проектирование пользовательского интерфейса}{42}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Рабочий проект}{44}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Классы, используемые при разработке сайта}{44}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Модульное тестирование разработанного web-сайта}{44}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.1.1}Класс main}{44}{subsubsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.2}Модульное тестирование разработанного web-сайта}{45}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Системное тестирование разработанного web-сайта}{45}{subsection.4.3}%
 \contentsline {section}{ЗАКЛЮЧЕНИЕ}{48}{section*.19}%
 \contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{48}{Item.47}%

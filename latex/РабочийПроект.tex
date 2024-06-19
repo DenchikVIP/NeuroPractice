@@ -1,24 +1,23 @@
 \section{Рабочий проект}
-\subsection{Классы, используемые при разработке сайта}
+\subsection{Классы, используемые при разработке приложения}
 
-Можно выделить следующий список классов и их методов, использованных при разработке web-приложения (таблица \ref{class:table}). Пример таблицы с уменьшенным межстрочным интервалом.
+Список классов и методов, которые были использованы при создании приложения представлены далее.
+
+\subsubsection{Класс main}
+
+Класс main явлаяется точкой входа в приложение и используется для реализации идентификации объектов с помощью нейронной сети. Здесь происходит инициализация основных компонентов программы в качестве кнопок на интерфейсе приложения. 
+Описание полей и методов данного класса представлено в таблице \ref{classmain:tabler}.
 
 \renewcommand{\arraystretch}{0.8} % уменьшение расстояний до сетки таблицы
 \begin{xltabular}{\textwidth}{|X|p{2.5cm}|>{\setlength{\baselineskip}{0.7\baselineskip}}p{4.85cm}|>{\setlength{\baselineskip}{0.7\baselineskip}}p{4.85cm}|}
-\caption{Описание классов Bitrix, используемых в приложении\label{class:table}}\\
-\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название класса & \centrow \setlength{\baselineskip}{0.7\baselineskip} Модуль, к которому относится класс & \centrow Описание класса & \centrow Методы \\
+\caption{Спецификация полей класса <<main>> \label{classmain:table}}\\
+\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Наименование& \centrow \setlength{\baselineskip}{0.7\baselineskip} Метод доступа & \centrow Тип данных & \centrow Описание \\
 \hline \centrow 1 & \centrow 2 & \centrow 3 & \centrow 4\\ \hline
 \endfirsthead
-\caption*{Продолжение таблицы \ref{class:table}}\\
+\caption*{Продолжение таблицы \ref{classmain:table}}\\
 \hline \centrow 1 & \centrow 2 & \centrow 3 & \centrow 4\\ \hline
 \finishhead
-CMain & Главный модуль & CMain – главный класс страницы web-приложения. После одного из этапов по загрузке страницы в сценарии становится доступным инициализированный системой объект данного класса с именем \$APPLICATION & void ShowTitle(string property\_code = «title», bool strip\_tags = true)
-Выводит заголовок страницы
-void SetTitle(string title)
-Устанавливает заголовок страницы
-
-void ShowCSS(bool external = true, bool XhtmlStyle = true)
-Выводит таблицу стилей CSS страницы\\
+path\_for\_one & public & String & ы\\
 \hline CFile & Главный модуль & CFile – Класс для работы с файлами и изображениями & array GetFileArray (int file\_id)
 Метод возвращает массив, содержащий описание файла (путь к файлу, имя файла, размер) с идентификатором file\_id
 \end{xltabular}
