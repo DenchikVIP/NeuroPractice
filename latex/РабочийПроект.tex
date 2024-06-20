@@ -297,233 +297,175 @@ class TestObjectDetection(unittest.TestCase):
 \subsection{Системное тестирование разработанного приложения}
 В целях проверки работоспособности программно-информационной системы было проведено системное тестирование. Описание тестов, их результаты и скриншоты экрана представлены в данном разделе.
 
-На рисунке \ref{main:image} представлена главная страница сайта «Русатом – Аддитивные технологии».
-\newpage % при необходимости можно переносить рисунок на новую страницу
-\begin{figure}[H] % H - рисунок обязательно здесь, или переносится, оставляя пустоту
-\center{\includegraphics[width=1\linewidth]{main1}}
-\center{\includegraphics[width=1\linewidth]{main2}}
-\center{\includegraphics[width=1\linewidth]{main3}}
-\caption{Главная страница сайта «Русатом – Аддитивные технологии»}
-\label{main:image}
-\end{figure}
-
-На рисунке \ref{systemtest1:image} представлен интерфейс программы.
+На рисунке \ref{systemtest1:image} -  \ref{systemtest13:image} представлен интерфейс программы.
 \begin{figure}[H]
 \centering
 \includegraphics[width=1\linewidth]{systemtest1}
-\caption{Интерфейс программы}
+\caption{Интерфейс программы. Основное окно}
 \label{systemtest1:image}
 \end{figure}
 
-На рисунках \ref{systemtest_responce:image}-\ref{systemtest_responce4:image} представлен полный путь распознания объекта на изображении.
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{systemtest13}
+\caption{Интерфейс программы. Окно обучения.}
+\label{systemtest13:image}
+\end{figure}
+
+На рисунке \ref{systemtest2:image} предоставлен вариант с загрузкой изображения.
 
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce}}
-\caption{Диалоговое окно загрузки файла Машина.png}
-\label{systemtest_responce:image}
+\centering
+\includegraphics[width=1\linewidth]{systemtest2}
+\caption{Интерфейс программы с загруженным изображением.}
+\label{systemtest2:image}
+\end{figure}
+
+На рисунке \ref{systemtest4:image} предоставлен вариант с загрузкой пользовательской моделью нейронной сети. Здесь пользователь выбирает путь до файла с весами формата .keras.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{systemtest4}
+\caption{Функция загрузки пользовательских весов. Выбор файла в диалоговом окне}
+\label{systemtest4:image}
+\end{figure}
+
+На рисунках \ref{systemtest3:image}-\ref{systemtest12:image} представлены варианты распознования возгораний на изображениях.
+
+\begin{figure}[H]
+\center{\includegraphics[width=1\linewidth]{systemtest3}}
+\caption{Интерфейс с распознанным файлом fire1.png}
+\label{systemtest3:image}
 \end{figure}
 
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce1}}
-\caption{Изображение отображено в интерфейсе программы}
-\label{systemtest_responce1:image}
+\center{\includegraphics[width=1\linewidth]{systemtest5}}
+\caption{Интерфейс с распознанным файлом fire2.png}
+\label{systemtest5:image}
 \end{figure}
 
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce2}}
-\caption{Окно выбора модели для распознания}
-\label{systemtest_responce2:image}
+\center{\includegraphics[width=1\linewidth]{systemtest6}}
+\caption{Интерфейс с распознанным файлом fire3.png}
+\label{systemtest6:image}
 \end{figure}
 
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce3}}
-\caption{Распознанный объект отображен на интерфейсе}
-\label{systemtest_responce3:image}
+\center{\includegraphics[width=1\linewidth]{systemtest7}}
+\caption{Интерфейс с распознанным файлом fire4.png}
+\label{systemtest7:image}
 \end{figure}
 
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce4}}
-\caption{Диалоговое окно сохранения результата}
-\label{systemtest_responce4:image}
+\center{\includegraphics[width=1\linewidth]{systemtest8}}
+\caption{Интерфейс с распознанным файлом fire5.png}
+\label{systemtest8:image}
 \end{figure}
 
-На рисунках \ref{systemtest_train1:image}-\ref{systemtest_train3:image} представлены все варианты обучения нейронной сети.
-
-На рисунке \ref{systemtest_train1:image} была нажата кнопка обучать, после чего открылось окно выбора набора.
-
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_train1}}
-\caption{Окно выбора обучающего набора}
-\label{systemtest_train1:image}
+\center{\includegraphics[width=1\linewidth]{systemtest9}}
+\caption{Интерфейс с распознанным файлом fire6.png}
+\label{systemtest9:image}
 \end{figure}
 
-После выбора нового набора появилось окно, предлагающее назвать модель и обучить её.
-
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_train2}}
-\caption{Окно выбора названия новой модели}
-\label{systemtest_train2:image}
+\center{\includegraphics[width=1\linewidth]{systemtest10}}
+\caption{Интерфейс с распознанным файлом fire7.png}
+\label{systemtest10:image}
 \end{figure}
 
-Вместо создания нового набора, после нажатия кнопки обучать, можно выбрать заготовленный набор и обучить нейронную сеть по нему.
-
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_train3}}
-\caption{Выбор обучения по набору ''Белый''}
-\label{systemtest_train3:image}
+\center{\includegraphics[width=1\linewidth]{systemtest11}}
+\caption{Интерфейс с распознанным файлом fire8.png}
+\label{systemtest11:image}
 \end{figure}
 
-На рисунке \ref{systemtest_responce5:image} было загружено изображение кошки.
-
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce5}}
-\caption{Интерфейс с изображением кошки}
-\label{systemtest_responce5:image}
+\center{\includegraphics[width=1\linewidth]{systemtest12}}
+\caption{Интерфейс с распознанным файлом fire9.png}
+\label{systemtest12:image}
 \end{figure}
 
-На рисунке \ref{systemtest_responce6:image} изображение кошки было обработано по модели ''Белый''.
+На рисунке \ref{systemtest22:image} была нажата кнопка Информация о картинке, после чего открылось окно с картинкой и вывелась информация по ней.
 
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce6}}
-\caption{Распознанныйе объекты на изображении кошки}
-\label{systemtest_responce6:image}
-\end{figure}
-На рисунке \ref{systemtest_responce7:image} было загружено изображение лилии.
-
-\begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce7}}
-\caption{Интерфейс с изображением лилии}
-\label{systemtest_responce7:image}
+\center{\includegraphics[width=1\linewidth]{systemtest22}}
+\caption{Интерфейс дополнительного окна с информацией о картинке и сама картинка}
+\label{systemtest22:image}
 \end{figure}
 
-На рисунке \ref{systemtest_responce8:image} изображение лилии было обработано по модели ''Белый''.
+На рисунке \ref{systemtest14:image} была нажата кнопка Файлы для обучения, после чего в поле вывода отобразились все файлы, доступные для обучения.
 
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce8}}
-\caption{Распознанныйе объекты на изображении лилии}
-\label{systemtest_responce8:image}
-\end{figure}
-На рисунке \ref{systemtest_responce9:image} было загружено изображение леса.
-
-\begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce9}}
-\caption{Интерфейс с изображением леса}
-\label{systemtest_responce9:image}
+\center{\includegraphics[width=1\linewidth]{systemtest14}}
+\caption{Интерфейс дополнительного окна с информацией файлах для обучения}
+\label{systemtest14:image}
 \end{figure}
 
-На рисунке \ref{systemtest_responce10:image} изображение леса было обработано по модели ''Белый''.
+На рисунке \ref{systemtest15:image} была нажата кнопка Протестировать классификатор, после чего открылось новое окно, где показаны обрезанные фрагменты изображений, которые сеть классифицировала (0 - нет возгорания, 1 - есть возгорание).
 
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce10}}
-\caption{Распознанныйе объекты на изображении леса}
-\label{systemtest_responce10:image}
-\end{figure}
-На рисунке \ref{systemtest_responce11:image} было загружено изображение футбола.
-
-\begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce11}}
-\caption{Интерфейс с изображением футбола}
-\label{systemtest_responce11:image}
+\center{\includegraphics[width=1\linewidth]{systemtest15}}
+\caption{Интерфейс дополнительного окна и окно с классификацией фрагментов изображений}
+\label{systemtest15:image}
 \end{figure}
 
-На рисунке \ref{systemtest_responce12:image} изображение футбола было обработано по модели ''Белый''.
+На рисунке \ref{systemtest16:image} была нажата кнопка Точный тест классификатора, после чего открылось новое окно, где показаны обрезанные фрагменты изображений, которые сеть классифицировала и придала степень принадежности с уровнем ошибки.
 
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce12}}
-\caption{Распознанныйе объекты на изображении футбола}
-\label{systemtest_responce12:image}
-\end{figure}
-На рисунке \ref{systemtest_responce13:image} было загружено изображение платья.
-
-\begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce13}}
-\caption{Интерфейс с изображением платья}
-\label{systemtest_responce13:image}
+\center{\includegraphics[width=1\linewidth]{systemtest16}}
+\caption{Интерфейс дополнительного окна и окно с классификацией фрагментов изображений и уровнем ошибки}
+\label{systemtest16:image}
 \end{figure}
 
-На рисунке \ref{systemtest_responce14:image} изображение платья было обработано по модели ''Белый''.
+На рисунке \ref{systemtest17:image} была нажата кнопка Тренировать модель классификатора, после чего открылось новое окно с диаграммой, где наглядно видно, как функция стремится к 0, тем самым показывая точность распознования классификатора.
 
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce14}}
-\caption{Распознанныйе объекты на изображении платья}
-\label{systemtest_responce14:image}
+\center{\includegraphics[width=1\linewidth]{systemtest17}}
+\caption{Интерфейс дополнительного окна и окно с диаграммой уровня ошибки нейросети классификатора}
+\label{systemtest17:image}
 \end{figure}
 
-На рисунке \ref{systemtest_responce15:image} было загружено изображение берёзы.
+На рисунке \ref{systemtest18:image} была нажата кнопка Тест локализатора, но не была загружена модель НС локализатора, после чего изображения были распознанны некорректно.
 
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce15}}
-\caption{Интерфейс с изображением берёзы}
-\label{systemtest_responce15:image}
+\center{\includegraphics[width=1\linewidth]{systemtest18}}
+\caption{Интерфейс дополнительного окна и окно с некорректно распознанными изображениями}
+\label{systemtest18:image}
 \end{figure}
 
-На рисунке \ref{systemtest_responce16:image} изображение берёзы было обработано по модели ''Белый''.
+На рисунке \ref{systemtest19:image} была нажата кнопка Тест локализатора и была загружена модель НС локализатора, после чего изображения были распознанны корректно.
 
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce16}}
-\caption{Распознанныйе объекты на изображении берёзы}
-\label{systemtest_responce16:image}
+\center{\includegraphics[width=1\linewidth]{systemtest19}}
+\caption{Интерфейс дополнительного окна и окно с корректно распознанными изображениями}
+\label{systemtest19:image}
 \end{figure}
 
-На рисунке \ref{systemtest_responce17:image} было загружено изображение дварфа.
+На рисунках \ref{systemtest20:image} - \ref{systemtest21:image}  была нажата кнопка Тренировать модель локализатора и была загружена модель НС локализатора, после чего, спустя несколько эпох, изображения были распознанны. На диаграмме можно наглядно увидеть, что значения близки к 0 и даже выходят за абстрактные значения в минус.
 
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce17}}
-\caption{Интерфейс с изображением дварфа}
-\label{systemtest_responce17:image}
+\center{\includegraphics[width=1\linewidth]{systemtest20}}
+\caption{Интерфейс дополнительного окна и окно с диаграммой ошибки локализатора}
+\label{systemtest20:image}
 \end{figure}
 
-На рисунке \ref{systemtest_responce18:image} изображение дварфа было обработано по модели ''Белый''.
-
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce18}}
-\caption{Распознанныйе объекты на изображении дварфа}
-\label{systemtest_responce18:image}
-\end{figure}
-На рисунке \ref{systemtest_responce19:image} было загружено изображение Чебурашки.
-
-\begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce19}}
-\caption{Интерфейс с изображением Чебурашки}
-\label{systemtest_responce19:image}
+\center{\includegraphics[width=1\linewidth]{systemtest21}}
+\caption{Интерфейс дополнительного окна и окно с распознанными изображениями после нескольких эпох}
+\label{systemtest21:image}
 \end{figure}
 
-На рисунке \ref{systemtest_responce20:image} изображение Чебурашки было обработано по модели ''Белый''.
+На рисунках \ref{systemtestlabelimg2:image} - \ref{systemtestlabelimg1:image}  была нажата кнопка Запустить LabelImg, после чего появилось окно с предупреждением о необходимости дополнительных пакетов. После подтвердждения открылось окно со сторонним приложением, которое поможет выделить объекты на изображениях для дальнейшего сохранения их данных в формате xml.
 
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce20}}
-\caption{Распознанныйе объекты на изображении Чебурашки}
-\label{systemtest_responce20:image}
+\center{\includegraphics[width=1\linewidth]{systemtestlabelimg2}}
+\caption{Интерфейс дополнительного окна и окно с распознанными изображениями после нескольких эпох}
+\label{systemtestlabelimg2:image}
 \end{figure}
 
-На рисунке \ref{systemtest_responce21:image} было загружено изображение поезда.
-
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce21}}
-\caption{Интерфейс с изображением поезда}
-\label{systemtest_responce21:image}
-\end{figure}
-
-На рисунке \ref{systemtest_responce22:image} изображение поезда было обработано по модели ''Белый''.
-
-\begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce22}}
-\caption{Распознанныйе объекты на изображении поезда}
-\label{systemtest_responce22:image}
-\end{figure}
-
-На рисунке \ref{systemtest_responce23:image} было загружено изображение мафинов.
-
-\begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce23}}
-\caption{Интерфейс с изображением мафинов}
-\label{systemtest_responce23:image}
-\end{figure}
-
-На рисунке \ref{systemtest_responce24:image} изображение мафинов было обработано по модели ''Белый''.
-
-\begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{systemtest_responce24}}
-\caption{Распознанныйе объекты на изображении мафинов}
-\label{systemtest_responce24:image}
+\center{\includegraphics[width=1\linewidth]{systemtestlabelimg1}}
+\caption{Интерфейс дополнительного окна и окно с распознанными изображениями после нескольких эпох}
+\label{systemtestlabelimg1:image}
 \end{figure}

@@ -54,10 +54,10 @@
 \contentsline {subsubsection}{\numberline {4.1.4}Класс creatingtfrecordlocalizer}{52}{subsubsection.4.1.4}%
 \contentsline {subsubsection}{\numberline {4.1.5}Класс classifier}{55}{subsubsection.4.1.5}%
 \contentsline {subsubsection}{\numberline {4.1.6}Класс training}{56}{subsubsection.4.1.6}%
-\contentsline {subsection}{\numberline {4.2}Модульное тестирование разработанного web-сайта}{57}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Системное тестирование разработанного web-сайта}{57}{subsection.4.3}%
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{60}{section*.19}%
-\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{60}{Item.47}%
-\contentsline {section}{ПРИЛОЖЕНИЕ А\ Представление графического материала}{63}{section*.21}%
-\contentsline {section}{ПРИЛОЖЕНИЕ Б\ Фрагменты исходного кода программы}{68}{section*.26}%
-\contentsline {section}{На отдельных листах (CD-RW в прикрепленном конверте)}{77}{lstnumber.-3.258}%
+\contentsline {subsection}{\numberline {4.2}Модульное тестирование разработанного приложения}{57}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Системное тестирование разработанного приложения}{60}{subsection.4.3}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{78}{section*.42}%
+\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{78}{Item.47}%
+\contentsline {section}{ПРИЛОЖЕНИЕ А\ Представление графического материала}{81}{section*.44}%
+\contentsline {section}{ПРИЛОЖЕНИЕ Б\ Фрагменты исходного кода программы}{86}{section*.49}%
+\contentsline {section}{На отдельных листах (CD-RW в прикрепленном конверте)}{95}{lstnumber.-5.258}%
