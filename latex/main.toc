@@ -4,60 +4,60 @@
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \contentsline {section}{ВВЕДЕНИЕ}{11}{section*.5}%
-\contentsline {section}{\numberline {1}Анализ предметной области}{14}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Структура и Технические Характеристики БПЛА}{14}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Техническое устройство БПЛА}{14}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}Компоненты и подсистемы БПЛА}{15}{subsubsection.1.1.2}%
-\contentsline {subsubsection}{\numberline {1.1.3}Разнообразие моделей БПЛА и их применение в обнаружении возгораний}{15}{subsubsection.1.1.3}%
-\contentsline {subsubsection}{\numberline {1.1.4}Работа камер и сенсоров на БПЛА для обнаружения возгораний}{17}{subsubsection.1.1.4}%
-\contentsline {paragraph}{\numberline {1.1.4.1}Типы камер и их характеристики}{17}{paragraph.1.1.4.1}%
-\contentsline {paragraph}{\numberline {1.1.4.2}Использование датчиков тепла и газов}{17}{paragraph.1.1.4.2}%
-\contentsline {paragraph}{\numberline {1.1.4.3}Обработка данных в реальном времени}{18}{paragraph.1.1.4.3}%
-\contentsline {subsection}{\numberline {1.2}Виды Пожаров и Методы Обнаружения}{18}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}Типы возгораний и их особенности}{18}{subsubsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}Сравнительный анализ методов обнаружения пожаров}{19}{subsubsection.1.2.2}%
-\contentsline {subsubsection}{\numberline {1.2.3}Технические проблемы и сложности при обнаружении возгораний с помощью БПЛА}{20}{subsubsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.3}Применение технологий для предотвращения пожаров}{21}{subsection.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}Использование данных об обнаруженных пожарах для оперативного реагирования и предотвращения катастроф.}{21}{subsubsection.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.2}Роль БПЛА в операциях по тушению пожаров и организации спасательных мероприятий}{21}{subsubsection.1.3.2}%
-\contentsline {subsubsection}{\numberline {1.3.3}Влияние автоматизированных систем обнаружения на эффективность противопожарных операций}{22}{subsubsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.4}Инновации в Технологиях Пожарного Дронирования}{23}{subsection.1.4}%
-\contentsline {subsubsection}{\numberline {1.4.1}Прогрессивные методы классификации и локализации возгораний с применением нейронных сетей}{23}{subsubsection.1.4.1}%
-\contentsline {subsubsection}{\numberline {1.4.2}Перспективы применения беспилотных массивов дронов для комплексного контроля за пожарами и оценки ущерба}{23}{subsubsection.1.4.2}%
-\contentsline {subsubsection}{\numberline {1.4.3}Непосредственное использование бпла для тушения пожаров}{25}{subsubsection.1.4.3}%
-\contentsline {section}{\numberline {2}Техническое задание}{27}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Основание для разработки}{27}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Цель и назначение разработки}{27}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Требования пользователя к интерфейсу приложения}{27}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Моделирование вариантов использования}{29}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Требования к оформлению документации}{31}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Технический проект}{32}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Общая характеристика организации решения задачи}{32}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Обоснование выбора технологии проектирования}{32}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Описание используемых технологий и языков программирования}{32}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Сверточные нейронные сети}{32}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Машинное обучение}{33}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}Язык программирования Python}{33}{subsubsection.3.2.4}%
-\contentsline {subsubsection}{\numberline {3.2.5}Библиотеки Python}{34}{subsubsection.3.2.5}%
-\contentsline {subsubsection}{\numberline {3.2.6}Архитектура сверточной нейронной сети}{35}{subsubsection.3.2.6}%
-\contentsline {subsubsection}{\numberline {3.2.7}Функция активации ReLU}{36}{subsubsection.3.2.7}%
-\contentsline {subsubsection}{\numberline {3.2.8}Функция IoU Loss}{37}{subsubsection.3.2.8}%
-\contentsline {subsection}{\numberline {3.3}Диаграмма компонентов}{39}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Взаимодействие компонентов}{40}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Диаграмма программных классов}{40}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4} Проектирование пользовательского интерфейса}{42}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Рабочий проект}{44}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Классы, используемые при разработке приложения}{44}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Класс main}{44}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Класс dataprocessing}{49}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Класс creatingtfrecordclassifier}{51}{subsubsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.4}Класс creatingtfrecordlocalizer}{52}{subsubsection.4.1.4}%
-\contentsline {subsubsection}{\numberline {4.1.5}Класс classifier}{55}{subsubsection.4.1.5}%
-\contentsline {subsubsection}{\numberline {4.1.6}Класс training}{56}{subsubsection.4.1.6}%
-\contentsline {subsection}{\numberline {4.2}Модульное тестирование разработанного приложения}{57}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Системное тестирование разработанного приложения}{60}{subsection.4.3}%
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{78}{section*.42}%
-\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{78}{Item.47}%
-\contentsline {section}{ПРИЛОЖЕНИЕ А\ Представление графического материала}{81}{section*.44}%
-\contentsline {section}{ПРИЛОЖЕНИЕ Б\ Фрагменты исходного кода программы}{86}{section*.49}%
-\contentsline {section}{На отдельных листах (CD-RW в прикрепленном конверте)}{95}{lstnumber.-5.258}%
+\contentsline {section}{\numberline {1}Анализ предметной области}{13}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Структура и Технические Характеристики БПЛА}{13}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Техническое устройство БПЛА}{13}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Компоненты и подсистемы БПЛА}{14}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Разнообразие моделей БПЛА и их применение в обнаружении возгораний}{14}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.4}Работа камер и сенсоров на БПЛА для обнаружения возгораний}{16}{subsubsection.1.1.4}%
+\contentsline {paragraph}{\numberline {1.1.4.1}Типы камер и их характеристики}{16}{paragraph.1.1.4.1}%
+\contentsline {paragraph}{\numberline {1.1.4.2}Использование датчиков тепла и газов}{16}{paragraph.1.1.4.2}%
+\contentsline {paragraph}{\numberline {1.1.4.3}Обработка данных в реальном времени}{17}{paragraph.1.1.4.3}%
+\contentsline {subsection}{\numberline {1.2}Виды Пожаров и Методы Обнаружения}{17}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Типы возгораний и их особенности}{17}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Сравнительный анализ методов обнаружения пожаров}{18}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Технические проблемы и сложности при обнаружении возгораний с помощью БПЛА}{19}{subsubsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.3}Применение технологий для предотвращения пожаров}{20}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Использование данных об обнаруженных пожарах для оперативного реагирования и предотвращения катастроф.}{20}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Роль БПЛА в операциях по тушению пожаров и организации спасательных мероприятий}{20}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}Влияние автоматизированных систем обнаружения на эффективность противопожарных операций}{21}{subsubsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.4}Инновации в Технологиях Пожарного Дронирования}{22}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Прогрессивные методы классификации и локализации возгораний с применением нейронных сетей}{22}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}Перспективы применения беспилотных массивов дронов для комплексного контроля за пожарами и оценки ущерба}{22}{subsubsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.3}Непосредственное использование бпла для тушения пожаров}{24}{subsubsection.1.4.3}%
+\contentsline {section}{\numberline {2}Техническое задание}{26}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Основание для разработки}{26}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Цель и назначение разработки}{26}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Требования пользователя к интерфейсу приложения}{26}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Моделирование вариантов использования}{28}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Требования к оформлению документации}{30}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Технический проект}{31}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Общая характеристика организации решения задачи}{31}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Обоснование выбора технологии проектирования}{31}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Описание используемых технологий и языков программирования}{31}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Сверточные нейронные сети}{31}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Машинное обучение}{32}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Язык программирования Python}{32}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}Библиотеки Python}{33}{subsubsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.6}Архитектура сверточной нейронной сети}{34}{subsubsection.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.2.7}Функция активации ReLU}{35}{subsubsection.3.2.7}%
+\contentsline {subsubsection}{\numberline {3.2.8}Функция IoU Loss}{36}{subsubsection.3.2.8}%
+\contentsline {subsection}{\numberline {3.3}Диаграмма компонентов}{38}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Взаимодействие компонентов}{39}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Диаграмма программных классов}{39}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4} Проектирование пользовательского интерфейса}{41}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Рабочий проект}{43}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Классы, используемые при разработке приложения}{43}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Класс main}{43}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Класс dataprocessing}{48}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Класс creatingtfrecordclassifier}{50}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}Класс creatingtfrecordlocalizer}{51}{subsubsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.5}Класс classifier}{54}{subsubsection.4.1.5}%
+\contentsline {subsubsection}{\numberline {4.1.6}Класс training}{55}{subsubsection.4.1.6}%
+\contentsline {subsection}{\numberline {4.2}Модульное тестирование разработанного приложения}{56}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Системное тестирование разработанного приложения}{59}{subsection.4.3}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{77}{section*.42}%
+\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{77}{Item.47}%
+\contentsline {section}{ПРИЛОЖЕНИЕ А\ Представление графического материала}{80}{section*.44}%
+\contentsline {section}{ПРИЛОЖЕНИЕ Б\ Фрагменты исходного кода программы}{85}{section*.49}%
+\contentsline {section}{На отдельных листах (CD-RW в прикрепленном конверте)}{99}{lstnumber.-6.199}%
