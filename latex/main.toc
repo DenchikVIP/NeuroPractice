@@ -59,5 +59,5 @@
 \contentsline {section}{ЗАКЛЮЧЕНИЕ}{77}{section*.42}%
 \contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{77}{Item.47}%
 \contentsline {section}{ПРИЛОЖЕНИЕ А\ Представление графического материала}{80}{section*.44}%
-\contentsline {section}{ПРИЛОЖЕНИЕ Б\ Фрагменты исходного кода программы}{85}{section*.49}%
-\contentsline {section}{На отдельных листах (CD-RW в прикрепленном конверте)}{99}{lstnumber.-6.199}%
+\contentsline {section}{ПРИЛОЖЕНИЕ Б\ Фрагменты исходного кода программы}{90}{section*.54}%
+\contentsline {section}{На отдельных листах (CD-RW в прикрепленном конверте)}{104}{lstnumber.-6.199}%

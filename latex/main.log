@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.5.13)  20 JUN 2024 04:26
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.5.13)  20 JUN 2024 05:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -745,7 +745,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--33
 
  []
 
-[1] (ЛистЗадания.tex [2] (main.lop)
+[1] (ЛистЗадания.tex [2] (main.lop [3])
 \tf@lop=\write4
 \openout4 = `main.lop'.
 
@@ -759,7 +759,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--104
 
  []
 
-) (Реферат.tex [3] [4]
+) (Реферат.tex [4]
 \c=\count325
 \last=\count326
 \pnul=\count327
@@ -824,9 +824,9 @@ Underfull \hbox (badness 1014) in paragraph at lines 13--14
 \openout6 = `main.lpc'.
 
  (Обозначения.tex
-Underfull \hbox (badness 1331) in paragraph at lines 1--1
-\TU/TimesNewRoman(0)/m/n/14.4 Концептуальная модель сайта (Графический материал
- / Концептуальная
+Underfull \hbox (badness 3078) in paragraph at lines 1--1
+\TU/TimesNewRoman(0)/m/n/14.4 Интерфейс приложения (Графический материал / Инте
+рфейс приложе-
  []
 
 
@@ -2242,26 +2242,41 @@ it-Learn и
  []
 
 [78]) (Плакаты.tex [79] [80]
-File: images/плакат1.png Graphic file (type bmp)
-<images/плакат1.png>
-File: images/плакат2.png Graphic file (type bmp)
-<images/плакат2.png>
+File: images/Ramka_VKR.png Graphic file (type bmp)
+<images/Ramka_VKR.png>
+File: images/Ramka_VKR2.png Graphic file (type bmp)
+<images/Ramka_VKR2.png>
  [81
 
 ]
-File: images/плакат3.png Graphic file (type bmp)
-<images/плакат3.png>
+File: images/Ramka_VKR3.png Graphic file (type bmp)
+<images/Ramka_VKR3.png>
  [82]
-File: images/плакат3.png Graphic file (type bmp)
-<images/плакат3.png>
- [83] [84]) (Код.tex
+File: images/Ramka_VKR4.png Graphic file (type bmp)
+<images/Ramka_VKR4.png>
+ [83]
+File: images/Ramka_VKR5.png Graphic file (type bmp)
+<images/Ramka_VKR5.png>
+ [84]
+File: images/Ramka_VKR6.png Graphic file (type bmp)
+<images/Ramka_VKR6.png>
+ [85]
+File: images/Ramka_VKR7.png Graphic file (type bmp)
+<images/Ramka_VKR7.png>
+ [86]
+File: images/Ramka_VKR8.png Graphic file (type bmp)
+<images/Ramka_VKR8.png>
+ [87]
+File: images/Ramka_VKR9.png Graphic file (type bmp)
+<images/Ramka_VKR9.png>
+ [88] [89])
+(Код.tex
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 4.
- (main.py [85
+ (main.py [90
 
-]
-[86] [87] [88] [89] [90] [91]) (classifier.py [92] [93] [94]) (training.py
-[95] [96] [97]) [98]) [99] (main.aux)
+] [91] [92] [93] [94] [95] [96]) (classifier.py [97]
+[98] [99]) (training.py [100] [101] [102]) [103]) [104] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
@@ -2272,15 +2287,15 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 305AAC58AD5D517712A38E25BD1F005E;21301.
+(rerunfilecheck)             Checksum: 99A88826372F6536FF14A5C15F3CEAA2;21301.
  ) 
 Here is how much of TeX's memory you used:
- 18103 strings out of 409553
- 340989 string characters out of 5772365
+ 18246 strings out of 409553
+ 344282 string characters out of 5772365
  2234148 words of memory out of 5000000
- 39985 multiletter control sequences out of 15000+600000
+ 40131 multiletter control sequences out of 15000+600000
  564188 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,11n,110p,946b,2144s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (99 pages).
+Output written on main.pdf (104 pages).
