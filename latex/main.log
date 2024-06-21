@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.5.13)  21 JUN 2024 12:34
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.5.13)  21 JUN 2024 19:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -874,48 +874,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 \last=\count350
 \pnul=\count351
  [11]) (Анализ.tex [12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 []\TU/TimesNewRoman(0)/b/n/14.4 1.1.3 Разнообразие моделей БПЛА и их применение
  в
  []
 
 [14] [15]
-Underfull \hbox (badness 6063) in paragraph at lines 37--37
+Underfull \hbox (badness 6063) in paragraph at lines 38--38
 []\TU/TimesNewRoman(0)/b/n/14.4 1.1.4 Работа камер и сенсоров на БПЛА для обнар
 ужения
  []
 
 [16] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
 []\TU/TimesNewRoman(0)/b/n/14.4 1.2.2 Сравнительный анализ методов обнаружения 
 очагов
  []
 
-[18]
-Underfull \hbox (badness 6204) in paragraph at lines 72--72
+
+Underfull \hbox (badness 6204) in paragraph at lines 73--73
 []\TU/TimesNewRoman(0)/b/n/14.4 1.2.3 Технические проблемы и сложности при обна
 ружении
  []
 
-
-Underfull \hbox (badness 5832) in paragraph at lines 83--83
+[18]
+Underfull \hbox (badness 5832) in paragraph at lines 84--84
 []\TU/TimesNewRoman(0)/b/n/14.4 1.3.1 Использование данных об обнаруженных пожа
 рах для
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 []\TU/TimesNewRoman(0)/b/n/14.4 1.3.2 Роль
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 []\TU/TimesNewRoman(0)/b/n/14.4 1.3.3 Влияние автоматизированных систем обнаруж
 ения на
  []
 
 
-Underfull \hbox (badness 6708) in paragraph at lines 104--104
+Underfull \hbox (badness 6708) in paragraph at lines 105--105
 []\TU/TimesNewRoman(0)/b/n/14.4 1.4.1 Прогрессивные методы классификации и лока
 лизации
  []
@@ -927,50 +927,44 @@ Underfull \hbox (badness 1077) in paragraph at lines 118--118
  []
 
 [22]
-Underfull \hbox (badness 1215) in paragraph at lines 125--126
-[]\TU/TimesNewRoman(0)/m/n/14.4 Автономные дроны-пожарные: Разработка дронов, с
-пособных не
- []
-
-
-Underfull \hbox (badness 2277) in paragraph at lines 128--129
-[]\TU/TimesNewRoman(0)/m/n/14.4 Роботизированные пожарные станции: Автоматизаци
-я пожарных
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []\TU/TimesNewRoman(0)/b/n/14.4 1.4.3 Непосредственное использование БПЛА для т
 ушения
  []
 
-[23] [24]) (ТехЗадание.tex [25] [26]
+[23]) (ТехЗадание.tex [24] [25]
 File: images/shablon.png Graphic file (type bmp)
 <images/shablon.png>
 File: images/shablon2.png Graphic file (type bmp)
 <images/shablon2.png>
- [27]
+ [26]
 Underfull \hbox (badness 1748) in paragraph at lines 56--57
 []\TU/TimesNewRoman(0)/m/n/14.4 Диаграмма вариантов использования описывает фун
 кциональность
  []
 
-[28]
+[27]
 File: images/actorusing.png Graphic file (type bmp)
 <images/actorusing.png>
-) (ТехПроект.tex [29] [30]
+) (ТехПроект.tex [28] [29]
 Underfull \hbox (badness 10000) in paragraph at lines 12--12
 []\TU/TimesNewRoman(0)/b/n/14.4 3.2.1 Описание используемых технологий и языков
 
  []
 
-[31] [32]
-Underfull \hbox (badness 2351) in paragraph at lines 37--38
-[]\TU/TimesNewRoman(0)/m/n/14.4 NumPy - фундаментальная библиотека для научных 
-расчетов в
+[30] [31]
+Underfull \hbox (badness 2961) in paragraph at lines 37--38
+[]\TU/TimesNewRoman(0)/m/n/14.4 NumPy. Фундаментальная библиотека для научных р
+асчетов в
  []
 
-[33]
+
+Underfull \hbox (badness 1867) in paragraph at lines 40--41
+[]\TU/TimesNewRoman(0)/m/n/14.4 Pandas. Библиотека для анализа и манипуляции да
+нными. Она
+ []
+
+[32]
 File: images/archNC.png Graphic file (type bmp)
 <images/archNC.png>
 
@@ -979,7 +973,7 @@ Underfull \hbox (badness 1635) in paragraph at lines 61--62
 м изображения
  []
 
-[34]
+[33]
 LaTeX Font Info:    Calculating math sizes for size <17> on input line 96.
 
 
@@ -1037,37 +1031,19 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.5> not available
 
 File: images/relu.png Graphic file (type bmp)
 <images/relu.png>
-[35]
+[34]
 File: images/iou.png Graphic file (type bmp)
 <images/iou.png>
- [36] [37] [38]
+ [35] [36] [37]
 File: images/comp.png Graphic file (type bmp)
 <images/comp.png>
- [39]
+ [38]
 File: images/classdiag.png Graphic file (type bmp)
 <images/classdiag.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 []\TU/TimesNewRoman(0)/m/n/14.4 Связь dataprocessing - creatingtfrecordclassifi
 er. Класс
- []
-
-
-Underfull \hbox (badness 3250) in paragraph at lines 198--199
-\TU/TimesNewRoman(0)/m/n/14.4 такие как загрузка изображения и нормализация коо
-рдинат изображе-
- []
-
-
-Underfull \hbox (badness 1248) in paragraph at lines 198--199
-\TU/TimesNewRoman(0)/m/n/14.4 ния. Для создания записи tfrecord необходимо созд
-ать запись со всеми
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
-[]\TU/TimesNewRoman(0)/m/n/14.4 Связь dataprocessing - creatingtfrecordlocalize
-r. Класс
  []
 
 
@@ -1082,22 +1058,28 @@ Underfull \hbox (badness 1248) in paragraph at lines 199--200
 ать запись со всеми
  []
 
-[40]
-Underfull \hbox (badness 1264) in paragraph at lines 201--202
-[]\TU/TimesNewRoman(0)/m/n/14.4 Связь creatingtfrecordclassifier - main. Класс 
-main использует ос-
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+[]\TU/TimesNewRoman(0)/m/n/14.4 Связь dataprocessing - creatingtfrecordlocalize
+r. Класс
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 203--204
-[]\TU/TimesNewRoman(0)/m/n/14.4 Связь creatingtfrecordlocalizer - main. Класс m
-ain использует ос-
+Underfull \hbox (badness 3250) in paragraph at lines 200--201
+\TU/TimesNewRoman(0)/m/n/14.4 такие как загрузка изображения и нормализация коо
+рдинат изображе-
  []
 
-[41]
+
+Underfull \hbox (badness 1248) in paragraph at lines 200--201
+\TU/TimesNewRoman(0)/m/n/14.4 ния. Для создания записи tfrecord необходимо созд
+ать запись со всеми
+ []
+
+[39] [40]
 File: images/maketinterface.png Graphic file (type bmp)
 <images/maketinterface.png>
-) (РабочийПроект.tex [42]
+) (РабочийПроект.tex [41] [42]
 Overfull \hbox (2.88367pt too wide) in paragraph at lines 43--43
 []|\TU/TimesNewRoman(0)/m/n/14.4 tf.keras.Model| 
  []
@@ -2277,21 +2259,256 @@ File: images/systemtestlabelimg2.png Graphic file (type bmp)
 File: images/systemtestlabelimg1.png Graphic file (type bmp)
 <images/systemtestlabelimg1.png>
 ) (Заключение.tex [76]) (СписокИсточников.tex [77]
-Underfull \hbox (badness 6188) in paragraph at lines 14--15
+[78]
+Underfull \hbox (badness 6188) in paragraph at lines 15--16
 []\TU/TimesNewRoman(0)/m/n/14.4 Герон, О. Практическое машинное обучение с Scik
 it-Learn и
  []
 
-[78] [79] [80] [81]
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+[]\TU/TimesNewRoman(0)/m/n/14.4 Северенс, Ч. Введение в программирование на Pyt
+hon :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+\TU/TimesNewRoman(0)/m/n/14.4 учебник / Ч. Северенс. - 2-е изд., испр. - Москва
+ : Националь-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+\TU/TimesNewRoman(0)/m/n/14.4 ный Открытый Университет «ИНТУИТ», 2016. - 231 с.
+ - URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+\TU/TimesNewRoman(0)/m/n/14.4 https://biblioclub.ru/index.php?page=book&id=4291
+84 (дата обращения:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+[]\TU/TimesNewRoman(0)/m/n/14.4 Программные системы статистического анализа: об
+наруже-
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 29--30
+\TU/TimesNewRoman(0)/m/n/14.4 ние закономерностей в данных с использованием сис
+темы R и язы-
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 29--30
+\TU/TimesNewRoman(0)/m/n/14.4 ка Python : учебное пособие / В. М. Волкова, М. А
+. Семенова, Е. С.
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 29--30
+\TU/TimesNewRoman(0)/m/n/14.4 Четвертакова, С. С. Вожов. - Новосибирск : Новоси
+бирский государ-
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 29--30
+\TU/TimesNewRoman(0)/m/n/14.4 ственный технический университет, 2017. - 74 с. :
+ ил., табл. - URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+\TU/TimesNewRoman(0)/m/n/14.4 https://biblioclub.ru/index.php?page=book&id=5764
+96 (дата обращения:
+ []
+
+[80] [81]
+Underfull \hbox (badness 3557) in paragraph at lines 34--35
+[]\TU/TimesNewRoman(0)/m/n/14.4 Лубенцова, Е. В. Системы управления с динамичес
+ким выбо-
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 34--35
+\TU/TimesNewRoman(0)/m/n/14.4 ром структуры, нечеткой логикой и нейросетевыми м
+оделями : моно-
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 34--35
+\TU/TimesNewRoman(0)/m/n/14.4 графия / Е. В. Лубенцова. - Ставрополь : СКФУ, 20
+14. - 248 с. -
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 35--36
+[]\TU/TimesNewRoman(0)/m/n/14.4 Гелиг, А. Х. Введение в математическую теорию о
+бучаемых
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+\TU/TimesNewRoman(0)/m/n/14.4 распознающих систем и нейтронных сетей : [Электро
+нный ресурс]
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 35--36
+\TU/TimesNewRoman(0)/m/n/14.4 : учебное пособие / А. Х. Гелиг, А. С. Матвеев. -
+ Санкт-Петербург
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+\TU/TimesNewRoman(0)/m/n/14.4 : Издательство Санкт-Петербургского Государственн
+ого Университе-
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 35--36
+\TU/TimesNewRoman(0)/m/n/14.4 та, 2014. - 224 с. - (Прикладная математика и инф
+орматика). - URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+\TU/TimesNewRoman(0)/m/n/14.4 http://biblioclub.ru/index.php?page=book&id=45794
+5. - ISBN 978-5-288-
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 36--37
+[]\TU/TimesNewRoman(0)/m/n/14.4 Келлехер, Д. Наука о данных: базовый курс : уче
+бное посо-
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 36--37
+\TU/TimesNewRoman(0)/m/n/14.4 бие / Д. Келлехер, Б. Тирни ; науч. ред. З. Мамед
+ьяров ; пер. с ан-
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 36--37
+\TU/TimesNewRoman(0)/m/n/14.4 гл. М. Белоголовский. - Москва : Альпина Паблишер
+, 2020. - 224 с. -
+ []
+
+[82]
 Underfull \hbox (badness 1502) in paragraph at lines 40--41
 []\TU/TimesNewRoman(0)/m/n/14.4 Волков Д.А. Модель, метод и нейросетевое оптико
 -электронное
  []
 
-[82] [83] [84]
-Underfull \hbox (badness 1688) in paragraph at lines 54--55
+
+Underfull \hbox (badness 1975) in paragraph at lines 41--42
+\TU/TimesNewRoman(0)/m/n/14.4 нологии аппаратно‐программных средств (практическ
+ие задания и спо-
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 41--42
+\TU/TimesNewRoman(0)/m/n/14.4 собы их решения) : учебник / С. В. Веретехина, К.
+ С. Кармицкий,
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 41--42
+\TU/TimesNewRoman(0)/m/n/14.4 Д. Д. Лукашин [и др.]. - Москва : Директ-Медиа, 2
+022. - 144 с. -
+ []
+
+[83]
+Underfull \hbox (badness 1622) in paragraph at lines 47--48
+[]\TU/TimesNewRoman(0)/m/n/14.4 Исакова, А. И. Основы информационных технологий
+ : учебное
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 47--48
+\TU/TimesNewRoman(0)/m/n/14.4 пособие / А. И. Исакова. - Томск : ТУСУР, 2016. -
+ 206 с. : ил. -
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 48--49
+[]\TU/TimesNewRoman(0)/m/n/14.4 Гунько, А. В. Программирование (в среде Windows
+) : учеб-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+\TU/TimesNewRoman(0)/m/n/14.4 ное пособие / А. В. Гунько ; Новосибирский госуда
+рственный
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+\TU/TimesNewRoman(0)/m/n/14.4 технический университет. - Новосибирск : Новосиби
+рский го-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+\TU/TimesNewRoman(0)/m/n/14.4 сударственный технический университет, 2019. - 15
+5 с. - URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+\TU/TimesNewRoman(0)/m/n/14.4 https://biblioclub.ru/index.php?page=book&id=5754
+17 (дата обращения:
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 48--49
+\TU/TimesNewRoman(0)/m/n/14.4 03.05.2024) . - Режим доступа: по подписке. - Биб
+лиогр. в кн. - ISBN
+ []
+
+[84]
+Underfull \hbox (badness 1292) in paragraph at lines 52--53
+[]\TU/TimesNewRoman(0)/m/n/14.4 Аверченков, В. И. Основы математического модели
+рования тех-
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 52--53
+\TU/TimesNewRoman(0)/m/n/14.4 нических систем : учебное пособие / В. И. Аверчен
+ков, В. П. Федо-
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 53--54
 []\TU/TimesNewRoman(0)/m/n/14.4 Зыков, С. В. Введение в теорию программирования
 . Объектно-
+ []
+
+
+Underfull \hbox (badness 6493) in paragraph at lines 53--54
+\TU/TimesNewRoman(0)/m/n/14.4 ориентированный подход : курс лекций / С. В. Зыко
+в. - 2-е изд.,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+\TU/TimesNewRoman(0)/m/n/14.4 испр. - Москва : Национальный Открытый Университе
+т «ИНТУ-
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 53--54
+\TU/TimesNewRoman(0)/m/n/14.4 ИТ», 2016. - 189 с. - (Основы информационных техн
+ологий). - URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+\TU/TimesNewRoman(0)/m/n/14.4 http://biblioclub.ru/index.php?page=book&id=42907
+3 (дата обращения:
  []
 
 ) (Плакаты.tex [85] [86]
@@ -2342,13 +2559,13 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 311A8D9EF284F48932818EC61F93750F;21381.
+(rerunfilecheck)             Checksum: BEDA974FCCD8BC2630706FC0B7B32870;20360.
  ) 
 Here is how much of TeX's memory you used:
- 18277 strings out of 409553
- 344627 string characters out of 5772365
- 2235148 words of memory out of 5000000
- 40162 multiletter control sequences out of 15000+600000
+ 18275 strings out of 409553
+ 344589 string characters out of 5772365
+ 2234148 words of memory out of 5000000
+ 40160 multiletter control sequences out of 15000+600000
  564188 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,11n,110p,946b,2144s stack positions out of 10000i,1000n,20000p,200000b,200000s
