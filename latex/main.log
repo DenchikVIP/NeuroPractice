@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.5.13)  21 JUN 2024 19:30
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.5.13)  22 JUN 2024 21:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -385,6 +385,9 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \c@nlinenum=\count299
 \TeXr@lab=\toks23
 )
+
+Package array Warning: Redefining primitive column r on input line 16.
+
 (C:\Users\Den\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip63
@@ -453,9 +456,6 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-
-Package array Warning: Redefining primitive column r on input line 17.
-
 (C:\Users\Den\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
@@ -905,7 +905,8 @@ Underfull \hbox (badness 5832) in paragraph at lines 84--84
 
 [19]
 Underfull \hbox (badness 10000) in paragraph at lines 93--93
-[]\TU/TimesNewRoman(0)/b/n/14.4 1.3.2 Роль
+[]\TU/TimesNewRoman(0)/b/n/14.4 1.3.2 Роль БПЛА в операциях по тушению пожаров 
+и
  []
 
 [20]
@@ -2344,42 +2345,6 @@ Underfull \hbox (badness 4981) in paragraph at lines 34--35
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 35--36
-[]\TU/TimesNewRoman(0)/m/n/14.4 Гелиг, А. Х. Введение в математическую теорию о
-бучаемых
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-\TU/TimesNewRoman(0)/m/n/14.4 распознающих систем и нейтронных сетей : [Электро
-нный ресурс]
- []
-
-
-Underfull \hbox (badness 3557) in paragraph at lines 35--36
-\TU/TimesNewRoman(0)/m/n/14.4 : учебное пособие / А. Х. Гелиг, А. С. Матвеев. -
- Санкт-Петербург
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-\TU/TimesNewRoman(0)/m/n/14.4 : Издательство Санкт-Петербургского Государственн
-ого Университе-
- []
-
-
-Underfull \hbox (badness 2302) in paragraph at lines 35--36
-\TU/TimesNewRoman(0)/m/n/14.4 та, 2014. - 224 с. - (Прикладная математика и инф
-орматика). - URL:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-\TU/TimesNewRoman(0)/m/n/14.4 http://biblioclub.ru/index.php?page=book&id=45794
-5. - ISBN 978-5-288-
- []
-
-
 Underfull \hbox (badness 3815) in paragraph at lines 36--37
 []\TU/TimesNewRoman(0)/m/n/14.4 Келлехер, Д. Наука о данных: базовый курс : уче
 бное посо-
@@ -2422,6 +2387,30 @@ Underfull \hbox (badness 3826) in paragraph at lines 41--42
  []
 
 [83]
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+[]\TU/TimesNewRoman(0)/m/n/14.4 Кузнецов, А. С. Теория вычислительных процессов
+ : учеб-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+\TU/TimesNewRoman(0)/m/n/14.4 ник / А. С. Кузнецов, Р. Ю. Царев, А. Н. Князьков
+. - Красно-
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 46--47
+\TU/TimesNewRoman(0)/m/n/14.4 ярск : Сибирский федеральный университет, 2015. -
+ 184 с. - URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+\TU/TimesNewRoman(0)/m/n/14.4 http://biblioclub.ru/index.php?page=book&id=43569
+6. - ISBN 978-5-7638-
+ []
+
+
 Underfull \hbox (badness 1622) in paragraph at lines 47--48
 []\TU/TimesNewRoman(0)/m/n/14.4 Исакова, А. И. Основы информационных технологий
  : учебное
@@ -2559,13 +2548,13 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BEDA974FCCD8BC2630706FC0B7B32870;20360.
+(rerunfilecheck)             Checksum: 80B41689B3B2899E46854458F6042D60;20376.
  ) 
 Here is how much of TeX's memory you used:
- 18275 strings out of 409553
- 344589 string characters out of 5772365
+ 18276 strings out of 409553
+ 344618 string characters out of 5772365
  2234148 words of memory out of 5000000
- 40160 multiletter control sequences out of 15000+600000
+ 40161 multiletter control sequences out of 15000+600000
  564188 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,11n,110p,946b,2144s stack positions out of 10000i,1000n,20000p,200000b,200000s
